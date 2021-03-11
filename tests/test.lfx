@@ -5,5 +5,7 @@ render {
     }
   </style>
   <h1>Hello, World!</h1>
-  <p>LIT IS AWESOME!!</p>
+  <p>LIT IS AWESOME!!</p><br />
+
+  <button onclick="alert('yo js is working!')">click me!</button>
 }

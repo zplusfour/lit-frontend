@@ -39,9 +39,6 @@ class Compiler {
       if (tok.split(" ")[0] === "render" && tok.split(" ")[1] === "{" && toks[toks.length - 1]) {
         toks = toks.filter((t) => t !== "render {");
         toks = toks.filter((t) => t !== "}");
-      // } else if (tok.split(" ")[0] === "route" && tok.split(" ")[2] === "{" && toks[toks.length - 1]) {
-      //   // toks = toks.filter((t) => t !== `route ${/\w*(\W)/g} {`);
-      //   // toks = toks.filter((t) => t !== "}");
       } else {
         continue;
       }
