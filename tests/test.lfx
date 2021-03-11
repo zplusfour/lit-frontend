@@ -7,7 +7,3 @@ render {
   <h1>Hello, World!</h1>
   <p>LIT IS AWESOME!!</p>
 }
-
-route /hello {
-  <h1>HELLLLLLLOOOOO</h1>
-}
